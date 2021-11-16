@@ -1,4 +1,5 @@
 # 2021_Nginx
 
 docker container cp nginx-demo:/etc/nginx/nginx.conf ./cp
-s
+
+dotnet run --project backend_service/backend_service/
