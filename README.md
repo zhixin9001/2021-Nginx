@@ -57,3 +57,5 @@ www.example.* // 可以匹配www.example.org, www.example.api.org等
 `*.example.org`必须有前缀，如果既想匹配`*.example.org`, 又想匹配`example.org`，可以使用点号`.`,如`.example.org`, 但点号只能出现在前面；
 
 #### 正则匹配
+docker exec -it nginx-demo /bin/bash
+
