@@ -2,8 +2,9 @@
 
 docker container cp nginx-demo:/etc/nginx/nginx.conf ./cp
 
-dotnet run --project backend_service/backend_service/
-
+dotnet run --project backend_service/backend_service/ \
+dotnet run --project backend_service/backend_service_1/
+http://localhost:5000/weatherforecast
 curl 'http://localhost/' -H 'Host: www.a.com' 
 
 docker exec -it nginx-demo /bin/bash
